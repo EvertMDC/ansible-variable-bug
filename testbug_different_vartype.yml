@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  roles:
+  - { role: role_testbug, testvalue: true, testvalue2: false }
+  - { role: role_testbug, testvalue: "false", testvalue2: "true" }
+
+...
