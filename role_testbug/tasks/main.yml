@@ -1,0 +1,7 @@
+
+- name: Printing out values
+  debug:
+    msg: "value {{ item.v }} key {{ item.k }}"
+  with_items:
+   - { v: "{{ testvalue | lower }}", k: "testvalue" }
+   - { v: "{{ testvalue2 | lower }}", k: "testvalue2" }
