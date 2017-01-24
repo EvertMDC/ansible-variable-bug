@@ -5,6 +5,6 @@ It’s a playbook that launches a role 2 times, first with testvalue = true, tes
 When using or printing out the variables, it prints true - false, true - false twice instead of using the adapted variables.
 
 The values are changed if the type changes. For example by first using a bool 
-"testvalue = true"
-and afterwards a string
+testvalue = true
+and afterwards a string (between quotes)
 testvalue = "false"
